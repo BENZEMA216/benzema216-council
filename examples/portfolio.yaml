@@ -1,0 +1,51 @@
+# Example portfolio for Mooning Cloud
+# Modify this file with your actual holdings and proposed trades
+
+cash: 50000
+
+positions:
+  - ticker: AAPL
+    shares: 100
+    avg_cost: 178.50
+    market: us
+
+  - ticker: NVDA
+    shares: 50
+    avg_cost: 120.00
+    market: us
+
+  - ticker: "600519"
+    shares: 100
+    avg_cost: 1680.00
+    market: cn  # 贵州茅台
+
+  - ticker: "0700"
+    shares: 200
+    avg_cost: 320.00
+    market: hk  # 腾讯控股
+
+proposed_trades:
+  - ticker: TSLA
+    action: buy
+    shares: 30
+    market: us
+    reason: "AI + robotics + autonomous driving long-term thesis"
+
+  - ticker: BABA
+    action: buy
+    shares: 200
+    market: hk
+    reason: "Valuation recovery + AI investment + cloud growth"
+
+  - ticker: NVDA
+    action: sell
+    shares: 20
+    market: us
+    reason: "Lock in profits, position too concentrated"
+
+context: |
+  Current macro environment: Fed likely to cut rates in 2026.
+  AI investment cycle continues but valuations are stretched.
+  China stimulus measures ongoing, consumer recovery uncertain.
+  目前处于降息预期周期，AI热潮持续但估值偏高。
+  中国经济刺激政策持续推出，消费复苏尚不确定。
